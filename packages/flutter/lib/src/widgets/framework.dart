@@ -2046,7 +2046,7 @@ typedef ElementVisitor = void Function(Element element);
 /// Return false to stop the walk.
 typedef ConditionalElementVisitor = bool Function(Element element);
 
-/// A handle to the location of a widget in the widget tree.
+/// A handle to the location of an element in the element tree.
 ///
 /// This class presents a set of methods that can be used from
 /// [StatelessWidget.build] methods and from methods on [State] objects.
